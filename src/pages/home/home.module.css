@@ -36,10 +36,13 @@ table {
 }
 
 td:first-child,
-th:first-child,
+th:first-child {
+  border-radius: 8px 0 0 8px;
+}
+
 td:last-child,
 th:last-child {
-  border-radius: 8px 0 0 8px;
+  border-radius: 0 8px 8px 0;
 }
 
 table th {
